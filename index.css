@@ -1,0 +1,70 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #111;
+  padding: 1rem 2rem;
+  position: relative;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar li:hover,
+.navbar .active {
+  color: #00bcd4;
+}
+
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #00bcd4;
+}
+
+section {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0a0a0a;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  color: #00bcd4;
+}
+
+.me-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00bcd4;
+  margin-bottom: 1rem;
+}
+
+.home {
+  padding-top: 120px;   
+  text-align: center;
+}
+
